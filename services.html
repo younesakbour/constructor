@@ -1,0 +1,303 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>MEDIA STRUCTURE</title>
+</head>
+<body>
+  <div>
+    <div class="h-screen">
+      <header class="w-full flex justify-between items-center py-4 px-8 md:px-10 lg:px-24 md:bg-black md:bg-opacity-30">
+        <div>
+            <a href="./index.html"><img class="w-1/3 md:w-1/2 lg:w-1/3" src="./img/logo.png" alt="LOGO"></a>
+        </div>
+        <nav class="hidden md:block">
+            <ul class="flex space-x-14 font-bold tracking-wider text-gray-50">
+                
+                <li class="px-4 py-2 border-spacing-2 border-b-4 border-red-400 border-opacity-0 transition duration-300 ease-in-out hover:border-opacity-100 hover:text-red-400"><a href="./index.html">ACCUEIL</a></li>
+                <li class="px-4 py-2 border-spacing-2 border-b-4 border-red-400 border-opacity-0 transition duration-300 ease-in-out hover:border-opacity-100 hover:text-red-400"><a href="./presentation.html">PRÉSENTATION</a></li>
+                <li class="px-4 py-2 border-b-4 border-spacing-2 border-red-600 text-red-600 transition duration-300 ease-in-out hover:border-opacity-70 hover:text-opacity-70"><a href="./services.html">SERVICES</a></li>
+                <li class="px-4 py-2 border-spacing-2 border-b-4 border-red-400 border-opacity-0 transition duration-300 ease-in-out hover:border-opacity-100 hover:text-red-400"><a href="./contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+        <button id="menubt" class="md:hidden">
+            <svg id="menu" width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M4 5C3.44772 5 3 5.44772 3 6C3 6.55228 3.44772 7 4 7H20C20.5523 7 21 6.55228 21 6C21 5.44772 20.5523 5 20 5H4ZM3 12C3 11.4477 3.44772 11 4 11H20C20.5523 11 21 11.4477 21 12C21 12.5523 20.5523 13 20 13H4C3.44772 13 3 12.5523 3 12ZM3 18C3 17.4477 3.44772 17 4 17H20C20.5523 17 21 17.4477 21 18C21 18.5523 20.5523 19 20 19H4C3.44772 19 3 18.5523 3 18Z" fill="#000000"/>
+            </svg> 
+            <svg id="menux" class="hidden" fill="#000000" height="45px" width="45px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+          viewBox="0 0 460.775 460.775" xml:space="preserve">
+                <path d="M285.08,230.397L456.218,59.27c6.076-6.077,6.076-15.911,0-21.986L423.511,4.565c-2.913-2.911-6.866-4.55-10.992-4.55
+                    c-4.127,0-8.08,1.639-10.993,4.55l-171.138,171.14L59.25,4.565c-2.913-2.911-6.866-4.55-10.993-4.55
+                    c-4.126,0-8.08,1.639-10.992,4.55L4.558,37.284c-6.077,6.075-6.077,15.909,0,21.986l171.138,171.128L4.575,401.505
+                    c-6.074,6.077-6.074,15.911,0,21.986l32.709,32.719c2.911,2.911,6.865,4.55,10.992,4.55c4.127,0,8.08-1.639,10.994-4.55
+                    l171.117-171.12l171.118,171.12c2.913,2.911,6.866,4.55,10.993,4.55c4.128,0,8.081-1.639,10.992-4.55l32.709-32.719
+                    c6.074-6.075,6.074-15.909,0-21.986L285.08,230.397z"/>
+            </svg>
+        </button>
+    </header>
+    
+    <ul id="menumb" class="hidden absolute w-full bg-gray-50 py-6 text-center space-y-6">
+        <li class=""><a href="./index.html">ACCUEIL</a></li>
+        <li class=""><a href="./presentation.html">PRÉSENTATION</a></li>
+        <li class="bg-gray-200 w-full py-4"><a href="./services.html">SERVICES</a></li>
+        <li class=""><a href="./contact.html">CONTACT</a></li>
+    </ul>
+    <div class="text-center space-y-8 md:space-y-4 px-6 py-16 md:px-0 md:py-10 bg-red-500 text-gray-50">
+      <h1 class="font-bold text-2xl md:text-4xl">SERVICES</h1>
+      <div class="md:space-y-2">
+          <p>Nos méthodes d’exécution des travaux sont adaptées aux particularités de chaque projet.</p>
+      </div>
+  </div>
+  <div class="text-center py-28 md:py-10 space-y-2">
+      <p class="font-bold text-sm md:text-base">METHODES ET CAPACITES</p>
+      <p class="md:text-5xl text-2xl font-bold text-red-500">L’EFFICACITÉ DES MÉTHODES</p>
+  </div>
+  <div class="flex justify-center">
+      <a href="#buttom" class="px-4 py-4 transition duration-300 ease-in-out rounded-full hover:bg-slate-200">
+          <svg fill="#000000" height="50px" width="50px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+          viewBox="0 0 330 330" xml:space="preserve">
+          <path id="XMLID_225_" d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393
+              c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393
+              s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"/>
+          </svg>
+      </a>
+  </div>
+</div>
+<div class="md:grid bg-red-100 pb-24 text-center grid-cols-3 gap-3 md:px-24 space-y-24 md:space-y-0 md:space-x-10 p-16 " id="buttom">
+  <div class="flex flex-col items-center space-y-4 md:mb-24">
+      <div>
+          <svg fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
+          width="50px" height="50px" viewBox="0 0 937.084 937.084"
+          xml:space="preserve">
+          <g>
+              <g>
+                  <path d="M707.147,66V10c0-5.523-4.478-10-10-10H434.542c-5.523,0-10,4.477-10,10v46c0,5.523-4.477,10-10,10H239.937
+                      c-5.523,0-10,4.477-10,10v814.915H78.542c-5.523,0-10,4.477-10,10v26.169c0,5.523,4.477,10,10,10h780c5.523,0,10-4.477,10-10
+                      v-26.169c0-5.523-4.477-10-10-10H707.147V120V66z M336.665,647.643c0,5.523-4.477,10-10,10h-29.731c-5.522,0-10-4.477-10-10
+                      v-30.997c0-5.523,4.478-10,10-10h29.731c5.523,0,10,4.477,10,10V647.643z M336.665,556.148c0,5.522-4.477,10-10,10h-29.731
+                      c-5.522,0-10-4.478-10-10V525.15c0-5.523,4.478-10,10-10h29.731c5.523,0,10,4.477,10,10V556.148z M336.665,464.652
+                      c0,5.522-4.477,10-10,10h-29.731c-5.522,0-10-4.478-10-10v-30.997c0-5.523,4.478-10,10-10h29.731c5.523,0,10,4.477,10,10V464.652z
+                      M336.665,373.157c0,5.522-4.477,10-10,10h-29.731c-5.522,0-10-4.478-10-10v-30.998c0-5.523,4.478-10,10-10h29.731
+                      c5.523,0,10,4.477,10,10V373.157z M336.665,281.661c0,5.523-4.477,10-10,10h-29.731c-5.522,0-10-4.477-10-10v-30.998
+                      c0-5.523,4.478-10,10-10h29.731c5.523,0,10,4.477,10,10V281.661z M336.665,190.166c0,5.523-4.477,10-10,10h-29.731
+                      c-5.522,0-10-4.477-10-10v-30.998c0-5.523,4.478-10,10-10h29.731c5.523,0,10,4.477,10,10V190.166z M570.542,890.915h-204V777.354
+                      c0-5.523,4.477-10,10-10h184c5.523,0,10,4.477,10,10V890.915z M650.15,647.643c0,5.523-4.478,10-10,10H390.542
+                      c-5.523,0-10-4.477-10-10v-30.997c0-5.523,4.477-10,10-10H640.15c5.522,0,10,4.477,10,10V647.643L650.15,647.643z M650.15,556.148
+                      c0,5.522-4.478,10-10,10H390.542c-5.523,0-10-4.478-10-10V525.15c0-5.523,4.477-10,10-10H640.15c5.522,0,10,4.477,10,10V556.148
+                      L650.15,556.148z M650.15,464.652c0,5.522-4.478,10-10,10H390.542c-5.523,0-10-4.478-10-10v-30.997c0-5.523,4.477-10,10-10H640.15
+                      c5.522,0,10,4.477,10,10V464.652L650.15,464.652z M650.15,373.157c0,5.522-4.478,10-10,10H390.542c-5.523,0-10-4.478-10-10
+                      v-30.998c0-5.523,4.477-10,10-10H640.15c5.522,0,10,4.477,10,10V373.157L650.15,373.157z M650.15,281.661c0,5.523-4.478,10-10,10
+                      H390.542c-5.523,0-10-4.477-10-10v-30.998c0-5.523,4.477-10,10-10H640.15c5.522,0,10,4.477,10,10V281.661L650.15,281.661z
+                      M650.15,190.166c0,5.523-4.478,10-10,10H390.542c-5.523,0-10-4.477-10-10v-30.998c0-5.523,4.477-10,10-10H640.15
+                      c5.522,0,10,4.477,10,10V190.166L650.15,190.166z"/>
+              </g>
+          </g>
+          </svg>
+      </div>
+      <h3 class="font-bold">STRUCTURES ET CHARPENTES</h3>
+      <ul class="text-sm text-center space-y-2 font-thin">
+          <li>Étude et conception des structures, production des plans d’avant-projet (aps et apd);</li>
+          <li>Étude d’exécution, production des plans en phase exe;</li>
+          <li>Concevoir des modélisations informatiques;</li>
+          <li>Éditer toute note de calcul de dimensionnement conformément aux réglementations en vigueur;</li>
+          <li>Élaborer tous types de plans, de la conception à l’exécution;</li>
+          <li>Le suivies de chantier.</li>
+      </ul>
+  </div>
+  <div class="flex flex-col items-center space-y-4">
+      <div>
+          <svg width="50px" height="50px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.30011 18.0399V16.8799C6.00011 15.4899 4.11011 12.7799 4.11011 9.89993C4.11011 4.94993 8.66011 1.06993 13.8001 2.18993C16.0601 2.68993 18.0401 4.18993 19.0701 6.25993C21.1601 10.4599 18.9601 14.9199 15.7301 16.8699V18.0299C15.7301 18.3199 15.8401 18.9899 14.7701 18.9899H9.26011C8.16011 18.9999 8.30011 18.5699 8.30011 18.0399Z" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M8.5 22C10.79 21.35 13.21 21.35 15.5 22" stroke="#292D32" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+      </div>
+      <h3 class="font-bold">INGÉNIERIE D’ELECTRICITÉ</h3>
+      <ul class="text-sm text-center space-y-2 font-thin">
+          <li>Étude et conception des réseaux électriques, production des plans d’avant-projet (aps et apd);</li>
+          <li>Étude d’exécution, production des plans en phase exe;</li>
+          <li>Concevoir des modélisations informatiques;</li>
+          <li>Éditer toute note de calcul de dimensionnement conformément aux réglementations en vigueur;</li>
+          <li>Élaborer tout type de plans, de la conception à l’exécution;</li>
+          <li>Le suivies de chantier.</li>
+      </ul>
+  </div>
+  <div  class="flex flex-col items-center space-y-4">
+      <div>
+          <svg fill="#000000" width="50px" height="50px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+              <g id="High_Visibility_Vest">
+              
+              <g id="XMLID_542_">
+              
+              <polygon id="XMLID_543_" points="299.982,22 212.018,22 256,110.089   "/>
+              
+              <rect height="19" id="XMLID_626_" width="128" x="306" y="381"/>
+              
+              <path d="M377.52,66.697C375.171,40.665,377.436,16,379.172,2H332.2l-67.29,134.749    c-0.021,0.042-0.031,0.067-0.052,0.109c0.713,1.373,1.141,2.917,1.141,4.571V201h29.85c5.502,0,10.15,4.666,10.15,10.168V221h128    v-59.905C401,149.736,382.09,117.319,377.52,66.697z" id="XMLID_627_"/>
+              
+              <rect height="20" id="XMLID_1041_" width="128" x="306" y="241"/>
+              
+              <path d="M306,290.869c0,5.502-4.648,10.131-10.15,10.131H266v40h29.85c5.502,0,10.15,4.143,10.15,9.645V361h128    v-80H306V290.869z" id="XMLID_1084_"/>
+              
+              <path d="M132.828,2c1.736,14,4.001,38.665,1.651,64.697C129.91,117.319,110,149.736,78,161.095V221h128v-9.832    c0-5.502,4.648-10.168,10.149-10.168H246v-66.381L179.8,2H132.828z" id="XMLID_545_"/>
+              
+              <path d="M247.089,136.726l-0.318-0.637c0.117,0.693,0.247,1.031,0.389,0.758    C247.138,136.805,247.11,136.768,247.089,136.726z" id="XMLID_617_"/>
+              
+              <rect height="60" id="XMLID_1086_" width="60" x="226" y="221"/>
+              
+              <path d="M306,430.346c0,5.502-4.648,9.654-10.15,9.654H266v70h168v-90H306V430.346z" id="XMLID_1087_"/>
+              
+              <rect height="20" id="XMLID_1088_" width="128" x="78" y="241"/>
+              
+              <rect height="59" id="XMLID_1089_" width="60" x="226" y="361"/>
+              
+              <path d="M206,350.645c0-5.502,4.648-9.645,10.149-9.645H246v-40h-29.851c-5.502,0-10.149-4.629-10.149-10.131    V281H78v80h128V350.645z" id="XMLID_1091_"/>
+              
+              <path d="M206,430.346V420H78v90h168v-70h-29.851C210.648,440,206,435.848,206,430.346z" id="XMLID_1092_"/>
+              
+              <rect height="19" id="XMLID_1093_" width="128" x="78" y="381"/>
+              
+              </g>
+              
+              </g>
+              
+              <g id="Layer_1"/>
+              
+              </svg>
+      </div>
+      <h3 class="font-bold">INGÉNIERIE DE FLUIDES ET THERMIQUE</h3>
+      <ul class="text-sm text-center space-y-2 font-thin">
+          <li>Étude et conception des réseaux cvc, production des plans d’avant-projet (aps et apd);</li>
+          <li>Étude d’exécution, production des plans en phase exe; Élaborer tout type de plans, de la conception à l’exécution;</li>
+          <li>Éditer toute note de calcul de dimensionnement conformément aux réglementations en vigueur; Concevoir des modélisations informatiques;</li>
+          <li>Le suivies de chantier.</li>
+      </ul>
+  </div>
+  <div class="flex flex-col items-center space-y-4">
+      <div>
+          <svg fill="#000000" width="50px" height="50px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+              <g id="Brick_Wal">
+              
+              <g id="XMLID_577_">
+              
+              <polygon id="XMLID_578_" points="132.264,149 154,149 154,105 2,105 2,149 13.908,149   "/>
+              
+              <rect height="45" id="XMLID_579_" width="99" x="142" y="169"/>
+              
+              <rect height="45" id="XMLID_580_" width="98" x="24" y="169"/>
+              
+              <rect height="44" id="XMLID_581_" width="152" x="2" y="234"/>
+              
+              <polygon id="XMLID_582_" points="338,149 338,105 174,105 174,149 250.62,149   "/>
+              
+              <polygon id="XMLID_583_" points="174,234 174,278 250.62,278 338,278 338,234 250.62,234   "/>
+              
+              <rect height="45" id="XMLID_584_" width="98" x="379" y="169"/>
+              
+              <rect height="45" id="XMLID_585_" width="98" x="261" y="169"/>
+              
+              <rect height="44" id="XMLID_586_" width="152" x="358" y="234"/>
+              
+              <rect height="45" id="XMLID_587_" width="98" x="261" y="298"/>
+              
+              <polygon id="XMLID_588_" points="368.976,363 358,363 358,407 510,407 510,363 487.332,363   "/>
+              
+              <rect height="45" id="XMLID_589_" width="98" x="379" y="298"/>
+              
+              <polygon id="XMLID_590_" points="13.908,363 2,363 2,407 154,407 154,363 132.264,363   "/>
+              
+              <rect height="45" id="XMLID_591_" width="98" x="24" y="298"/>
+              
+              <rect height="45" id="XMLID_592_" width="99" x="142" y="298"/>
+              
+              <rect height="44" id="XMLID_593_" width="164" x="174" y="363"/>
+              
+              </g>
+              
+              </g>
+              
+              <g id="Layer_1"/>
+              
+              </svg>
+      </div>
+      <h3 class="font-bold">INGÉNIERIE DE VRD ET INFRASTRUCTURE</h3>
+      <ul class="text-sm text-center space-y-2 font-thin">
+          <li>Élaborer tout type de plans, de la conception à l’exécution;</li>
+          <li>Éditer toute note de calcul de dimensionnement conformément aux réglementations en vigueur;</li>
+          <li>Concevoir des modélisations informatiques.</li>
+      </ul>
+  </div>
+  <div class="flex flex-col items-center space-y-4">
+      <div>
+          <svg fill="#000000" width="50px" height="50px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+              <g id="Paint_Brush">
+              
+              <g id="XMLID_560_">
+              
+              <polygon id="XMLID_628_" points="227.441,282 223.678,327 288.322,327 284.559,282   "/>
+              
+              <path d="M299.721,462l-9.718-115h-68.006l-9.718,115c-0.003,0.036-0.007-0.022-0.01,0.014    c-1.188,12.473,2.8,24.401,11.229,33.67c8.429,9.271,19.972,14.352,32.501,14.352c12.529,0,24.072-5.117,32.501-14.387    c8.429-9.27,12.417-21.157,11.229-33.63C299.727,461.983,299.724,462.036,299.721,462z M266,466.177c0,5.502-4.498,9.963-10,9.963    c-5.502,0-10-4.461-10-9.963v-10.959c0-5.502,4.498-9.963,10-9.963c5.502,0,10,4.461,10,9.963V466.177z" id="XMLID_632_"/>
+              
+              <path d="M363.949,2l-33.743,100.914c-1.403,4.199-5.396,6.947-9.831,6.777c-4.423-0.17-8.204-3.207-9.281-7.5    L285.944,2H228v108.512c0,5.502-4.498,9.963-10,9.963c-5.502,0-10-4.46-10-9.963V2h-34v108.512c0,5.502-4.498,9.963-10,9.963    c-5.502,0-10-4.46-10-9.963V2h-49v163h302V2H363.949z" id="XMLID_633_"/>
+              
+              <path d="M105,237.375c0,13.67,10.446,24.625,24.117,24.625h89.167h75.432h89.167    c13.67,0,24.117-10.954,24.117-24.625V185H105V237.375z" id="XMLID_1283_"/>
+              
+              </g>
+              
+              </g>
+              
+              <g id="Layer_1"/>
+              
+              </svg>
+      </div>
+      <h3 class="font-bold">MÉTRÉ</h3>
+      <ul class="text-sm text-center space-y-2 font-thin">
+          <li>Élaborer le cahier d’appel d’offre;</li>
+          <li>Élaborer le cout estimatif;</li>
+          <li>Élaborer le cout comparatif entre les variantes;</li>
+          <li>Le suivies des plans et les situations pour les décomptes.</li>
+      </ul>
+  </div>
+  <div class="flex flex-col items-center space-y-4">
+      <div>
+          <svg fill="#000000" width="50px" height="50px" viewBox="0 0 512 512" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+              <g id="Helmet">
+              
+              <g id="XMLID_1023_">
+              
+              <path d="M487.681,390H24.319c-12.333,0-22.365,9.667-22.365,22s10.033,22,22.365,22h463.363    c12.333,0,22.365-9.667,22.365-22S500.014,390,487.681,390z" id="XMLID_1024_"/>
+              
+              <path d="M405.179,203.933C382.621,181.374,356,164.093,325,153.672v96.94c0,5.502-4.498,9.963-10,9.963    c-5.502,0-10-4.46-10-9.963V109.721C305,91.891,290.799,78,272.968,78H271v119.221c0,5.502-4.498,9.963-10,9.963    c-5.502,0-10-4.46-10-9.963V78h-1.192C231.977,78,217,91.891,217,109.721v140.891c0,5.502-4.498,9.963-10,9.963    c-5.502,0-10-4.46-10-9.963V150.223C121,172.436,62.388,238,48.169,316h415.765C456.447,274,436.16,234.913,405.179,203.933z" id="XMLID_1025_"/>
+              
+              <path d="M467,352.983c0-5.8-0.039-11.983-0.502-16.983H45.522C45.044,341,45,347.178,45,352.983V370h422V352.983    z" id="XMLID_1026_"/>
+              
+              </g>
+              
+              </g>
+              
+              <g id="Layer_1"/>
+              
+              </svg>
+      </div>
+      <h3 class="font-bold">SUIVI</h3>
+      <ul class="text-sm text-center space-y-2 font-thin">
+          <li>Élaborer le cahier d’appel d’offre;</li>
+          <li>Élaborer le cout estimatif;</li>
+          <li>Élaborer le cout comparatif entre les variantes;</li>
+          <li>Le suivies des plans et les situations pour les décomptes.</li>
+      </ul>
+  </div>
+    </div>
+  </div>
+  <footer class="text-center bg-black py-6 font-semibold text-gray-50 w-full">
+    <p>© Copyright 2023 MEDIA STRUCTURE. All Rights Reserved.</p>
+</footer>
+</body>
+<script src="./src/script.js"></script>
+</html>
